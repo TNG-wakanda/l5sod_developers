@@ -1,0 +1,30 @@
+In this task, our group learned the essential Git commands and how to use them in practice:
+
+1️⃣ Creating and editing files:
+- notepad team_notes.txt       # Create a file with team members
+- notepad group_task.txt       # Create a file describing what we learned
+
+2️⃣ Checking repository status:
+- git status                   # See changes and current branch
+- git remote -v                # Check remote connections
+
+3️⃣ Staging and committing changes:
+- git add team_notes.txt       # Stage a new or modified file
+- git commit -m "Add team_notes.txt with member names and roles"       # Commit file with a message
+- git commit -m "Add GitHub usernames to team_notes.txt"               # Commit after modifying file
+- git add group_task.txt       # Stage the feature file
+- git commit -m "Add group_task.txt describing Git commands learned"   # Commit feature file
+
+4️⃣ Pushing and pulling changes:
+- git push origin main         # Push local commits to GitHub
+- git pull origin main         # Pull updates from remote to local
+
+5️⃣ Branching and merging:
+- git checkout -b feature-update   # Create and switch to a new branch
+- git checkout main                # Switch back to the main branch
+- git merge feature-update         # Merge the feature branch into main
+
+6️⃣ Viewing history:
+- git log --oneline                # View concise commit history
+
+This task helped our group understand both the **theory** and **practical workflow** of Git, including how to create, track, and sync changes across branches and GitHub.
