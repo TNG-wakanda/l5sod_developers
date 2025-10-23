@@ -1,0 +1,32 @@
+1. What is the purpose of the .git directory?
+   → It stores all version-control information for the project, including commits, branches, configuration, and history. It makes the folder a Git repository.
+
+2. Explain the difference between git pull and git fetch.
+   → git fetch downloads changes from the remote but does not apply them automatically.
+     git pull downloads and automatically merges those changes into your current branch.
+
+3. What is the purpose of the staging area?
+   → It’s a temporary area where Git collects files before committing them. It lets you review what will be included in the next commit.
+
+4. Which command unstages a file without deleting it from your working directory?
+   → git restore --staged <filename>
+      (Old version: git reset HEAD <filename>)
+
+5. How does git revert differ from git reset?
+   → git revert creates a new commit that undoes a specific commit (safe for shared branches).
+     git reset moves the branch pointer backward and can remove commits (can rewrite history).
+
+6. What steps would you take to invite a collaborator on GitHub?
+   → Go to the repository → Settings → Collaborators → Add people → enter their GitHub username → Send invitation → collaborator accepts.
+
+7. Which command lists all branches and shows the current one?
+   → git branch
+
+8. How do you check differences between your working directory and the last commit?
+   → git diff
+
+9. Why are meaningful commit messages important?
+   → They make it easy to understand what changes were made, why, and by whom—helping teamwork and debugging.
+
+10. What happens if you use git push without committing first?
+    → Nothing is uploaded because there are no new commits to push; Git only pushes committed changes.
